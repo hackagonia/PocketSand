@@ -4,6 +4,8 @@
     Requirements:
       - git in PATH
       - PowerShell 5.1+ or PowerShell 7+
+    Usage:
+      - .\Clone-Repos.ps1 -Account "<username>" -AsOrg -Destination ".\<output folder>"
 #>
 
 [CmdletBinding()]
